@@ -55,7 +55,18 @@ Bitcoin (or any other currency) stock price for your RPi Zero
     ```
     python3 ~/zero-btc-screen/main.py
     ```
-
+6. Generate config via changecfg.py
+   ```
+   bash change.sh
+   
+   Input coin name (btc):
+   Input mode 0 = candle, 1 = line:
+   Input time (in minutes):
+   Coin 'btc' found!
+   Updated configuration written to configuration.cfg
+   ```
+   If nothing has been enterd, it will default to: coin: btc, mode: candle, time: 15 minutes
+   
 
 ## Screen configuration
 
@@ -162,4 +173,4 @@ To make it run on startup you can choose from 2 options:
 ### Support the project
 If you would like to support this project and and keep me caffeinated, you can do it here:
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/drmod)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S7NRQSG)
